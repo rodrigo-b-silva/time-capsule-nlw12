@@ -20,6 +20,7 @@ export async function memoriesRoutes(app: FastifyInstance) {
         id: memory.id,
         converUrl: memory.coverUrl,
         summary: memory.content.substring(0, 115).concat("..."),
+        createdAt: memory.createdAt,
       };
     });
   });
