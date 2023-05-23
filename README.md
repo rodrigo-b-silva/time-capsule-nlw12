@@ -1,24 +1,41 @@
+<h1 align="center">
+    :timer_clock: Cápsula do tempo :hourglass_flowing_sand:
+</h1>
+
+<p align="center">
+  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#instalacao">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#desafio">Desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#licenca">Licença</a>
+</p>
+
 <p align="center">
     <img src="https://github.com/rodrigo-b-silva/time-capsule-nlw12/blob/main/.github/banner-nlw.png" width="1100"/>
 </p>
 
-## :computer: Projeto
+<h2 id="projeto">:computer: Projeto</h2>
 Time Capsule é um projeto focado em registro de lembranças, com ele é possível fazer cadastros de momentos marcantes da vida, podendo o usuário compartilhar ou não estas memórias através de demarcações públicas, fazendo uma espécie de blog e/ou agenda secreta.
 
 
-## :rocket: Funcionalidades
+<h2 id="funcionalidades">:rocket: Funcionalidades</h2>
+
 * Cadastro de lembranças incluindo textos, fotos e vídeos
 * Consulta e listagem de lembranças salvas
 * Autenticação Github com protocolo OAuth2
 
 
-## :hammer: Tecnologias utilizadas
+<h2 id="tecnologias">:hammer: Tecnologias utilizadas</h2>
+
 * **Front-end**: React, Nextjs, Typescript, TailwindCSS
 * **Back-end**: NodeJS, Typescript, Fastify, Prisma, SQLite
 * **Mobile**: React Native, Expo, Typescript, Nativewind
 
 
-## :fire: Instalação e execução
+<h2 id="instalacao">:fire: Instalação e execução</h2>
+
 ```
 # Clone este repositório
 $ git clone git@github.com:rodrigo-b-silva/time-capsule-nlw12.git
@@ -51,12 +68,14 @@ $ npm start
 - Não esqueça de mudar a baseURL no arquivo api.ts das pastas web e mobile para o host da API
 ```
 
-## :art: Layout
+<h2 id="layout">:art: Layout</h2>
+
 Para visualizar detalhes dos layouts utilizados no projeto é necessário ter um conta [Figma](https://www.figma.com/).
 * [Layout Web e Mobile](https://www.figma.com/community/file/1240071097028170811)
 
 
-## 🧠 Desafio
+<h2 id="desafio">🧠 Desafio</h2>
+
 Funcionalides para a versão TimeCapsule 2.0 estão listadas abaixo:
 * Edição de memória na Web e no Mobile
 * Novos campos no cadastro de memórias: localização, pessoas envolvidas e tags
@@ -67,7 +86,8 @@ Funcionalides para a versão TimeCapsule 2.0 estão listadas abaixo:
 * Novas autenticações OAuth2 (Google, LinkedIn, Facebook e Twitter)
 
 
-## :memo: Licença
+<h2 id="licenca">:memo: Licença</h2>
+
 Este projeto está sob a licença MIT. Veja mais detalhes em [LICENSE](https://github.com/rodrigo-b-silva/time-capsule-nlw12/blob/main/LICENSE) 
 
 
